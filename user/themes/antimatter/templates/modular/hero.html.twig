@@ -1,0 +1,10 @@
+<!-- {% set hero_image = page.media['hero.jpg'] %} -->
+{% set hero_image = page.media['hero.jpg'].contrast(0).brightness(+30) %}
+
+<div class="modular-row hero {{ page.header.class}}" style="background-image: url({{ hero_image.url }}) !important;">
+    <div class="hero-text {{ page.header.alignment}} wow offScreen{{ page.header.alignment}} " style="margin-{{page.header.alignment}}: -160px; padding-{{page.header.alignment}}: 100px;">
+    {{ content }}
+    </div>
+</div>
+
+<!-- slideIn{{ page.header.alignment}} -->

@@ -1,0 +1,200 @@
+body {
+	overflow: hidden;
+}
+
+@font-face {
+    font-family: "please";
+    src: url(../fonts/please_write_me_a_song.ttf);
+}
+
+@font-face {
+    font-family: "pragmata";
+    src: url(../fonts/pragmata_medium.ttf);
+}
+
+#logo a {
+	font-family: "please";
+}
+
+#header #navbar ul.navigation {
+	margin-top: 1.2rem;
+}
+
+#header #navbar ul.navigation li a, #header.scrolled #navbar a {
+	color: #3f5c5e !important;
+	font-family: "please" !important;
+	font-size: 1.2rem;
+	text-transform: uppercase ;
+}
+
+#header #navbar ul.navigation li a:before, #header #navbar ul.navigation li a:after {
+	background-color: #3f5c5e !important;
+}
+
+#header.scrolled #navbar a:before, #header.scrolled #navbar a:after {
+	background-color: #3f5c5e !important;
+}
+
+#hero {
+	background-attachment: fixed;
+	height: 100%;
+	padding: 0;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.hero {
+	height: 100vh;
+	padding: 15em 7em 7em;
+	margin-bottom: 0 !important;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.hero-text {
+	/*background: url('../images/postcard.png');*/
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 50%;
+	max-height: 500px;
+	padding: 40px 40px 40px 40px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 2px;
+	font-family: "pragmata";
+}
+
+.hero-text h3 {
+	font-family: "pragmata";
+}
+
+.logo {
+	width: 100%;
+	height: 100vh;
+	/*padding: 15em 7em 7em;*/
+	display: table;
+	margin-bottom: 0 !important;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+.logo-img {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.logo-img img {
+	width: 600px;
+}
+
+.modular {
+	padding: 0 !important;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.blogs {
+	height: 100vh;
+	padding: 7em;
+	margin-bottom: 0 !important;
+}
+
+.grid-item {
+	width: 30%;
+	height: 200px;
+	display: table;
+	float: left;
+	margin: 0 20px 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	opacity: 0;
+	border-radius: 2px;
+}
+.grid-item:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.grid-title {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.grid-title h2 {
+	font-family: "please";
+}
+
+a.grid-title:hover {
+	color: #fff;
+	/*text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+}
+
+.opacity {
+	opacity: 1.0;
+}
+
+.form {
+	height: 100vh;
+	padding: 7em 7em 0 7em;
+	margin-bottom: 0 !important;
+	position: relative;
+}
+
+.typeform-widget {
+	opacity: .7;
+	transition: all ease 1s;
+}
+
+.typeform-widget:hover {
+	opacity: 0.9;
+}
+
+.Left {
+	float: left;
+}
+
+.Right {
+	float: right;
+}
+
+.centered {
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.hidden > .centered {
+	margin-top: 600px;
+}
+
+h1 {
+	color: #fff;
+}
+
+#footer {
+	position: relative !important;
+}
+
+
+.offScreenLeft {
+	margin-left: -800px !important;
+}
+
+.offScreenRight {
+	margin-right: -800px !important;
+}

@@ -1,0 +1,11 @@
+email: postcardstoohio@gmail.com
+fullname: 'Kyle Elder'
+title: Admin
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$XygeDrDoR9VEQvVufS0Ycemv0jmWQ/EED1rj4QQXxEN/Sym0G9.dG

@@ -1,0 +1,38 @@
+1487413189
+a:2:{s:7:"content";s:1061:"
+<div class="modular-row form " style="background-image: url(/user/pages/01.modular/_join/hero.jpg) !important;">
+
+<div class="centered">
+	<h1>Join the challenge!</h1>
+</div>
+
+
+<div class="wow slideInUp hidden" style="position: absolute; bottom: 0; width: 100%; height: 70vh; left: 0;">
+
+	<div class="centered">
+
+		<!-- Change the width and height values to suit you best -->
+		<div class="typeform-widget" data-url="https://postcardstoohio.typeform.com/to/Gi0xfj" data-text="Join the Challenge" style="width:100%;height:70vh;"></div>
+		<script>
+		(function() {
+		    var qs, js, q, s, d = document,
+		        gi = d.getElementById,
+		        ce = d.createElement,
+		        gt = d.getElementsByTagName,
+		        id = 'typef_orm',
+		        b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+		    if (!gi.call(d, id)) {
+		        js = ce.call(d, 'script');
+		        js.id = id;
+		        js.src = b + 'widget.js';
+		        q = gt.call(d, 'script')[0];
+		        q.parentNode.insertBefore(js, q)
+		    }
+		})()
+		</script>
+
+	</div>
+
+</div>
+</div>
+";s:12:"content_meta";N;}

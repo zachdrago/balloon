@@ -1,0 +1,12 @@
+{% set hero_image = page.media['hero.jpg'] %}
+{% set logo_image = page.media['logo.png'] %}
+
+<div class="modular-row logo {{ page.header.class}}" style="background-image: url({{ hero_image.url }}) !important;">
+
+	<div class="logo-img">
+		<img src="{{ logo_image.url }}" />
+	</div>
+
+</div>
+
+<!-- slideIn{{ page.header.alignment}} -->
